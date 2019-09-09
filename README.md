@@ -1,6 +1,6 @@
-## PS1 MDDN 342 2017
+## Robots vs Monsters 
 
-### Robots vs Monsters 
+![alt text](https://raw.githubusercontent.com/LABCAT/robots-vs-monsters/master/preview.jpg)
 
 My final submission represents a battle for the earth between robots and monsters. There is a scoreboard in the bottom left hand corner displaying the current score. 
 You can even influence the result by using your center (monster) and right (robot) buttons to help out your favourite side. 
