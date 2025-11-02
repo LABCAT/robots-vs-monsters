@@ -1,7 +1,3 @@
-// note: this file is poorly named - it can generally be ignored.
-
-// helper functions below for supporting blocks/purview
-
 function saveBlocksImages(doZoom) {
   if(doZoom == null) {
     doZoom = false;
