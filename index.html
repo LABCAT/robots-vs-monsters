@@ -1,0 +1,43 @@
+<head>
+	        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js"></script>
+    <script src="https://d3js.org/d3-random.v1.min.js"></script>
+    <!--
+    <script src="p5.js"></script>
+    <script src="p5.dom.js"></script>
+    <script src="seedrandom.min.js"></script>
+    <script src="d3-random.v1.min.js"></script>
+    -->
+    <script language="javascript" type="text/javascript" src="purview_helper.js"></script>
+    <script language="javascript" type="text/javascript" src="focused_random.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+    <style>
+        body   { padding: 0; margin: 0; }
+        .inner { position: absolute; }
+        #controls {
+            font: 300 12px "Helvetica Neue";
+            padding: 5;
+            margin: 5;
+            background: #f0f0f0;
+            opacity: 0.0;
+            -webkit-transition: opacity 0.2s ease;
+            -moz-transition: opacity 0.2s ease;
+            -o-transition: opacity 0.2s ease;
+            -ms-transition: opacity 0.2s ease;
+        }
+        #controls:hover { opacity: 0.9; }
+    </style>
+
+</head>
+<body style="background-color:white" oncontextmenu="return false;">
+    <div class="outer">
+        <div class="inner">
+            <div id="canvasContainer"></div>
+        </div>
+    </div>
+</table>
+</body>
